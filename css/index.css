@@ -1,0 +1,73 @@
+body{
+    background-color: gray;
+    min-width: 540px;
+}
+header,footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+header{
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+}
+footer{
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+}
+.form{
+    margin: 5px;
+    background-color: white;
+}
+form{
+    padding: 10px;
+    height: 500px;
+}
+.addGoods{
+    float: right;
+    margin: 10px;
+}
+form{
+    clear: both;
+}
+.table{
+
+    text-align: center;
+    margin-top: 10px;
+
+}
+.table-title1{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px auto;
+}
+.table-title2 input{
+    border: 0;
+    font-size: 14px;
+}
+
+.input{
+    margin: 10px;
+    /*width: 20%;*/
+}
+.input input{
+    /*margin: 3px;*/
+    border: 0;
+    background-color: white;
+}
+.del{
+    border: 0;
+}
+.submit{
+    text-align: center;
+}
+.submit button{
+    margin: 20px;
+    width: 40%;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+}
