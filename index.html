@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>商品打折</title>
+    <script src="js/jquery-2.2.1.min.js"></script>
+    <script src="js/util.js"></script>
+    <!--<script src="js/getDiscountInfo.js"></script>-->
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+<header>商品结算系统</header>
+<div class="form" >
+    <div class="addGoods">
+        <input id="goodsID" type="text" name="goodsID" placeholder="输入商品条形码">
+        <input id="goodsNum" type="text" name="goodsNum" placeholder="输入商品数量">
+        <button  type="button" id="addBtn">添加商品信息</button>
+    </div>
+    <form >
+
+
+        <div class="table">
+            <div class="table-title1">商品清单</div>
+            <div class="table-title2">
+                <input type="text" value="商品条形码"  >
+                <input type="text" value="商品数量"  >
+            </div>
+            <div  id="table-body">
+                <!--<div class="input">-->
+                    <!--<input type="text" value="ITEM000000" disabled>-->
+                    <!--<input type="text" value="10" disabled>-->
+                    <!--<button type="button" class="del">删除</button>-->
+                <!--</div>-->
+                <!--<div class="input">-->
+                    <!--<input type="text" value="ITEM000000" disabled>-->
+                    <!--<input type="text" value="10" disabled>-->
+                    <!--<button type="button" class="del">删除</button>-->
+                <!--</div>-->
+            </div>
+        </div>
+
+        <div class="submit">
+            <button type="button" id="submit">提交</button>
+        </div>
+    </form>
+
+</div>
+<footer>produced by 车卓文</footer>
+<script src="js/index.js"></script>
+</body>
+</html>
