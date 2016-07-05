@@ -1,0 +1,28 @@
+body{
+    background-color: gray;
+    min-width: 540px;
+}
+header,footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+header{
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+}
+footer{
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+
+}
+#ticket{
+    margin: 5px;
+    background-color: white;
+    padding: 40px;
+    font-size: 14px;
+    height: 800px;
+}

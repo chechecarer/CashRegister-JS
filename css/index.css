@@ -24,7 +24,7 @@ footer{
 }
 form{
     padding: 10px;
-    height: 500px;
+    height: 800px;
 }
 .addGoods{
     float: right;
@@ -51,10 +51,8 @@ form{
 
 .input{
     margin: 10px;
-    /*width: 20%;*/
 }
 .input input{
-    /*margin: 3px;*/
     border: 0;
     background-color: white;
 }
