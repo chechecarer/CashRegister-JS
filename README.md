@@ -1,2 +1,5 @@
-# TW2
-thought work task2
+# ThoughtWorks作业-收银机
+ 用JS实现简单的收银机功能：
+ * 输入购物车商品信息
+ * 计算商品优惠和总价
+ * 打印购物小票
